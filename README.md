@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Job Posting Website - A Modern Job Posting Platform
+A full-featured job posting website built using Next.js, Prisma, Next-Auth, Zod, and React Hook Form. This project allows users to register, log in, post jobs, and apply for them securely and efficiently.
 
-## Getting Started
+## 🛠 Tech Stack
+- Next.js – App Router based React framework for SSR/SSG
+- Prisma – Type-safe ORM for database interaction
+- PostgreSQL  (Pluggable with Prisma)
+- Next-Auth – Authentication with credentials and OAuth support
+- Zod – Schema-based form and API validation
+- React Hook Form – Lightweight form handling and validation
+- Tailwind CSS – Utility-first styling for responsive UI
 
-First, run the development server:
+
+## Run Locally
+Clone the project
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  git clone https://github.com/coderrony/Job_Posting_Website.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Go to the project directory
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+  cd Job_Posting_Website
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Install dependencies
 
-## Learn More
+```bash
+  npm install
+```
+Create a .env file in the root directory and fill in the values according to .env.example
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+  touch .env
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Start the server
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+  npm run dev
+```
 
-## Deploy on Vercel
+Run on browser
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+  http://localhost:3000/
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
