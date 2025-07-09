@@ -34,6 +34,12 @@ Create a .env file in the root directory and fill in the values according to .en
 ```bash
   touch .env
 ```
+```bash
+ npx prisma migrate dev --name init
+```
+```bash
+  npx prisma generate
+```
 
 Start the server
 
